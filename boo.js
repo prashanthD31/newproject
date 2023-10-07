@@ -50,35 +50,16 @@ function toggleMode() {
 
     }
     else{
-        phoneError.innerHTML = "";
+        phoneError.innerHTML = '';
         phoneInput.classList.remove("is-invalid")
         
-    
-            Swal.fire({
-                icon: 'success',
-                title: 'Success!',
-                
-            });
         
+        popup.style.display = 'block'
+        okButton.addEventListener('click', function () {
+            // Hide the popup
+            popup.style.display = 'none'
+      
     }
-}
 
-       
-
-   
-
-    //
-
-    
-
-
-
-
-
-
-
-   
-
-
-
+        )}}
 
