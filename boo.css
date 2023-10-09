@@ -66,7 +66,12 @@ span{
 .class{
   margin-top: 90px;
 }
-
+/* abot */
+#ab{
+  font-weight:bold;
+  /* padding: 20px; */
+  
+}
 /* service */
 .card img{
   height: 200px;
@@ -98,9 +103,9 @@ body.dark-mode {
   position:fixed;
   top: 20%;
   left: 25%;
-  width: 700px;
-  background-color: #fff;
-  height: 100%;
+  /* width: 700px; */
+  /* background-color: #fff; */
+  height: 70%;
   justify-content: center;
   align-items: center;
 }
@@ -109,7 +114,13 @@ body.dark-mode {
 .popup-content {
   background-color: white;
   padding: 20px;
+  height: 40%;
+  margin-top: 100px;
   border-radius: 7px;
   text-align: center;
   box-shadow: 2px 2px 7px black,-2px -2px 7px black;
+}
+.p{
+  display: flex;
+  justify-content: center;
 }
